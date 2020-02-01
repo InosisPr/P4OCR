@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-image: url(../ressource/background_accueil.jpg);
+  background-position: bottom 0;
+}
+
+#nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  height: 7VH;
+  width: 100VW;
+  background-color: white;
+  z-index: 100;
+}
