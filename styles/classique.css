@@ -19,4 +19,36 @@ body {
   width: 100VW;
   background-color: white;
   z-index: 100;
+  }
+#nav a{
+  text-decoration: none;
 }
+#corp{
+  margin-top: 7VH;
+}
+
+/* Mise en page de la section accueil */
+/* Conteneur principal */
+#accueil_block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10VH;
+  width: 100VW;
+  }
+  /* Insertion du Portrait */
+  #portrait_auteur{
+padding: 3%;
+  }
+  /* Texte de présentation de l'auteur */
+  #presentation_auteur{
+    padding: 1%;
+    width: 40VW;
+    text-align: justify;
+    background-color: rgba(255,255,255, 0.5);
+    border-radius: 10px;
+  }
+  #presentation_auteur h1{
+    text-align: center;
+  }

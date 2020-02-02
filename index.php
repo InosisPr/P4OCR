@@ -9,15 +9,10 @@
 <nav>
 <?php include("./includes/menu.php"); ?>
 </nav>
-<section>
+<section id="corp">
 <?php include("./includes/corp_principal.php"); ?>
 </section>
-<footer>
-  <div class="footer">
-    <?php include("./includes/footer.php"); ?>
-  </div>
-</footer>
-  </body>
+</body>
   <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>tinymce.init({selector:'textarea'});</script>
 </html>
