@@ -52,3 +52,20 @@ padding: 3%;
   #presentation_auteur h1{
     text-align: center;
   }
+/* Pied de page Permanent */
+.footpage{
+  text-align: center;
+  background-color: rgba(255,255,255, 0.3);
+  border-radius:10px 10px 0px 0px;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.footpage a{
+  color: black;
+
+}
